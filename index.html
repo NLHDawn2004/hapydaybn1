@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Di Chuyển Nhiều Ảnh Ngang</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+            body {
+                margin: 0;
+                overflow: hidden;
+            }
+            
+            .container {
+                position: relative;
+                width: 100%;
+                height: 100vh;
+                overflow: hidden;
+                background-color: #e00f66;
+            }
+            
+            .moving-image {
+                position: absolute;
+                top: 50%;
+                left: 0;
+                transform: translate(0, -50%);
+                animation: moveRight 12s linear infinite;
+                width: 120px;
+                background-size: cover;
+                background-position: center;
+                border-radius: 10px;
+                box-shadow: 0 0 20px rgba(209, 231, 9, 0.9);
+                background-color: #f2f2f2; /* Màu nền của ảnh */
+                border: 2px solid #82dd1b; /* Đổi màu và độ rộng của viền tại đây */
+            }
+            
+            .moving-image:nth-child(2) {
+                animation-delay: 1s;
+            }
+            
+            .moving-image:nth-child(3) {
+                animation-delay: 2s;
+            }
+            
+            .moving-image:nth-child(4) {
+                animation-delay: 3s;
+            }
+            
+            .moving-image:nth-child(5) {
+                animation-delay: 4s;
+            }
+            .moving-image:nth-child(6) {
+                animation-delay: 5s;
+            }
+            .moving-image:nth-child(7) {
+                animation-delay: 6s;
+            }
+            .moving-image:nth-child(8) {
+                animation-delay: 7s;
+            }
+            .moving-image:nth-child(9) {
+                animation-delay: 8s;
+            }
+            .moving-image:nth-child(10) {
+                animation-delay: 9s;
+            }
+            .moving-image:nth-child(11) {
+                animation-delay: 10s;
+            }
+            .moving-image:nth-child(12) {
+                animation-delay: 11s;
+            }
+            
+            
+            @keyframes moveRight {
+                0% {
+                    left: 0;
+                }
+                100% {
+                    left: 100%;
+                }
+            }
+            .text{
+                text-align: center;
+                animation: sparkle 2s infinite linear;
+
+                /* Hiệu ứng bóng cho chữ */
+                text-shadow: 0 0 5px rgba(255, 87, 51, 0.7);
+            }
+            h1{
+                font-size: 100px;
+    
+                border: 2px solid #82dd1b;
+                box-shadow: 0 0 20px rgba(209, 231, 9, 0.9);
+                animation: sparkle 2s infinite linear;
+
+                /* Hiệu ứng bóng cho chữ */
+                text-shadow: 0 0 5px rgba(255, 87, 51, 0.7);
+                color: #91117b;
+               
+            }
+            h2{
+          
+                border-radius: 10px;
+                border: 2px solid #82dd1b;
+                box-shadow: 0 0 20px rgba(209, 231, 9, 0.9);
+                animation: sparkle 2s infinite linear;
+
+                /* Hiệu ứng bóng cho chữ */
+                text-shadow: 0 0 5px rgba(255, 87, 51, 0.7);
+                color: #0e0a0d;
+            }
+            .text1{
+            margin-top: 320px;
+            font-size: 20px;
+            }
+            
+            
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="z4793181193926_857810dd2479e403ee6152a7f75825d1.jpg" class="moving-image">
+        <img src="z4793152276952_6fa30c939d4c3a5a97c1b19ae813170a.jpg" class="moving-image">
+        <img src="z4793152246113_24afab29b41beb8555481830dcc2e082.jpg" class="moving-image">
+        <img src="z4793152226800_f42760099d7930543cf10b400db979a6.jpg" class="moving-image">
+        <img src="z4793181185927_3a9be7202e57f7eadf304863376f7b83.jpg" class="moving-image">
+        <img src="z4793152278691_8a2b32b5193f8a3ec1dc59266c4a6f56.jpg" class="moving-image">
+        <img src="z4799637949424_543ecf73c66c23160d5b14c567893df9.jpg" class="moving-image">
+        <img src="z4799637949427_5b691fd4e5ccc7936c854961df398332.jpg" class="moving-image">
+        <img src="z4799637950912_243df4727edfc3ade2f788f0428a7181.jpg" class="moving-image">
+        <img src="z4799637299910_9464af80ecbe02e8be790c6807712944.jpg" class="moving-image">
+        <img src="z4799637299914_500db39c5032bdbb844da5f8f1bbbc38.jpg" class="moving-image">
+        <img src="z4793152248938_f0f071aa135b2fa1bf79d7cb561af2c9.jpg" class="moving-image">
+        <div class="text">
+            <h1>Congratulations! Happy October 20th</h1>
+            <h2>Chúc công chúa bé nhỏ của anh một ngày thật tuyệt. <br>Cảm ơn bé yêu. <br>Ngày 20/10 này, anh chúc bé yêu luôn xinh đẹp và tỏa sáng như những tia nắng rực rỡ <br> Hãy luôn tự tin và hạnh phúc bên anh nhé!</h2>
+            <div class="text1"> 
+                <h2 class="tex1"> Cảm ơn em đã đến, mang theo cơn gió mát lành cho cuộc đời anh. Ngày 20/10, chúc người yêu anh luôn xinh đẹp, trẻ trung bất chấp thời gian và mãi yêu anh như bây giờ nhé.
+                    <br>Hôm nay thật là một ngày đặc biệt, anh chúc em luôn vui vẻ và nở những nụ cười đẹp nhất trong ngày hôm nay. Anh sẽ cố gắng là người mang tới những nụ cười thật tươi ấy cho em, không chỉ hôm nay mà cho tới hết cả cuộc đời. Chúc em một ngày 20/10 vui vẻ nhé!
+                    <br>Trên thiên đường có 10 thiên thần: 5 thiên thần đang chơi đùa, 4 thiên thần đang nói chuyện và một thiên thần đang đọc tin nhắn này. Chúc thiên thần của anh vui vẻ
+                    <br>Ngày 20/10, anh muốn tặng em một món quà bé nhỏ tên là "Buổi sáng tốt lành", được gói bằng sự chân thành, buộc bằng sự quan tâm và dính keo bằng lời cầu nguyện của anh, để em được vui vẻ và hạnh phúc cả ngày. Yêu em nhiều. Chúc em 20/10 vui vẻ!
+                </h3>
+            </div>
+        </div>
+       
+        
+    </div>
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const images = document.querySelectorAll(".moving-image");
+        
+            // Làm bất cứ điều gì bạn muốn với các ảnh ở đây.
+        });
+        
+    </script>
+</body>
+</html>
